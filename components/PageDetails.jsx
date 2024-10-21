@@ -24,7 +24,7 @@ export default async function PageDetails({ lang, id }) {
         <div className="space-y-2.5 text-black/80 text-xs lg:text-sm">
           <div className="flex justify-between">
             <span>{dictionary.views}</span>
-            <span className="font-bold">{photo.view}</span>
+            <span className="font-bold">{photo.views}</span>
           </div>
           <div className="flex justify-between">
             <span>{dictionary.share}</span>
